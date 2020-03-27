@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technocrats.covidtesting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/covidlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/covidlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TravelCough"></activity>
+        <activity android:name=".TravelFever" />
+        <activity android:name=".TirednessTravel" />
+        <activity android:name=".dfbreathTravel" />
+        <activity android:name=".feverCoughDfbreathTirednessTravel" />
+        <activity android:name=".feverCoughTirednessDfbreath" />
+        <activity android:name=".dfbreathCoughTiredness" />
+        <activity android:name=".feverCoughDfbreath" />
+        <activity android:name=".feverDfbreathTiredness" />
+        <activity android:name=".feverCoughTiredness" />
+        <activity android:name=".tirednessCough" />
+        <activity android:name=".dfbreathTiredness" />
+        <activity android:name=".dfbreathFever" />
+        <activity android:name=".feverTiredness" />
+        <activity android:name=".dfbreathingCough" />
+        <activity android:name=".Country" />
+        <activity android:name=".TrackWorldwide" />
+        <activity android:name=".TravelHistory" />
+        <activity android:name=".DifficultyBreathing" />
+        <activity android:name=".TirednessActivity" />
+        <activity android:name=".coughFeverActivity" />
+        <activity android:name=".feverActivity" />
+        <activity android:name=".coughActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
